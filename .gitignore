@@ -107,7 +107,6 @@ build/
 coverage/
 
 # Miscellaneous
-.env.*.local
 *.sublime-project
 *.sublime-workspace
 .project
@@ -119,3 +118,5 @@ coverage/
 .vscode-test
 *.code-workspace
 __pypackages__/
+.env
+*.env
