@@ -1,4 +1,4 @@
-# AI ChatBot API
+# AI ChatBot Fast API & Next Js
 
 A FastAPI-based chatbot application powered by OpenAI that supports both text prompts and image analysis. The API includes a Next.js frontend for an interactive chat experience.
 
