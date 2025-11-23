@@ -41,7 +41,11 @@ const MessageList = () => {
                 ]);
             }
             else {
-                setChatHistory((prev) => [...prev, newMessage, botMessage]);
+                setChatHistory((prev) => [
+                    ...prev, 
+                    {sender: 'user', message: userMessage},
+                    {sender: 'bot', message: data.response}
+                ]);
             }
         }
         catch (error) {
